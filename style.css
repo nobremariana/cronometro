@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #caf0f8;
+  }
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    
+
+}
+
+.max-width{
+    text-align: center; 
+    
+}
+
+  h1{
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 60px;
+    margin-top: 20px;
+  }
+
+  button{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 15px;
+    background: #0077b6;
+    color: white;
+    margin-top: 20px;
+  }
+  button:hover {
+    background-color: #a1c0d1;
+}
+
+button:active {
+    background-color: #161515;
+}
